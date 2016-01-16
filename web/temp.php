@@ -7,7 +7,7 @@
 
 
 <h1>DHT22: <?php 
-$file = fopen("tempdht22_actual.log", "r");
+$file = fopen("./tempdht22_actual.log", "r");
 while(!feof($file)) {
 echo fgets($file);
 }
