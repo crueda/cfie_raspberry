@@ -10,6 +10,6 @@ BARRA="/"
 ESPACIO=" "
 PUNTOS=":"
 COMA=","
-TEMP=$(python /home/pi/temp/tempDHT.py 22 4)
-echo "$ANYO$BARRA$MES$BARRA$DIA$ESPACIO$HORA$PUNTOS$MINUTOS$PUNTOS$SEGUNDOS$COMA$TEMP" >> /var/www/temp/tempdht22.log
-echo "$TEMP" > /var/www/temp/tempdht22_actual.log
+TEMP=$(python /home/pi/sensores/tempDHT.py 22 4)
+echo "$ANYO$BARRA$MES$BARRA$DIA$ESPACIO$HORA$PUNTOS$MINUTOS$PUNTOS$SEGUNDOS$COMA$TEMP" >> /var/www/sensores/temperatura.log
+echo "$TEMP" > /var/www/sensores/temperatura_actual.log
