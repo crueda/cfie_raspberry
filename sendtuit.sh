@@ -19,7 +19,7 @@ fichero_hum = open('/var/www/sensores/humedad_actual.log', 'rb')
 for line in fichero_hum:
 	hum_actual = line
 
-api = tweetpony.API(consumer_key = "6EaicoNVcrFuSWdXtSQ", consumer_secret = "3393Vi6IItFioRmfmvNIuB0r0zYHQjZVxd78Yk", access_token = "469243869-zxAMSEsLYFKorOhpn81t14qPPEmGMb3aigR7OeB2", access_token_secret = "WXTKgp85Ed7jK6bHxpzXp8ZAn8l0Tldpc3OeRG6zZ7Tam")
+api = tweetpony.API(consumer_key = "iS3hZG8TZwXNb0UudO6LYFcpe", consumer_secret = "EBxLejj25otxHGwwFujG5IK7gZWBT7TXGJK4uBBwyY2bpVDa8l", access_token = "4830621454-R8T9WjRNzT6paY6tc63OBdq718xAvwutuiHm7eL", access_token_secret = "rkTvRojtenCPJbMN5g9htdGyqMU9G7h8nqhR3V2uiWxLn")
 user = api.user
 
 tuit = hora_actual + ": Temperatura->" + temp_actual + " - Humedad->" + hum_actual 
