@@ -22,7 +22,7 @@ for line in fichero_hum:
 api = tweetpony.API(consumer_key = "iS3hZG8TZwXNb0UudO6LYFcpe", consumer_secret = "EBxLejj25otxHGwwFujG5IK7gZWBT7TXGJK4uBBwyY2bpVDa8l", access_token = "4830621454-R8T9WjRNzT6paY6tc63OBdq718xAvwutuiHm7eL", access_token_secret = "rkTvRojtenCPJbMN5g9htdGyqMU9G7h8nqhR3V2uiWxLn")
 user = api.user
 
-tuit = hora_actual + ": Temperatura->" + temp_actual + " - Humedad->" + hum_actual 
+tuit = hora_actual + " Raspberry1 \nTemperatura: " + temp_actual + "\n" + "Humedad: " + hum_actual  
 
 fichero_temp.close
 fichero_hum.close
